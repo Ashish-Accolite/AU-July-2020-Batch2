@@ -1,0 +1,8 @@
+EMP_ID,NAME,CONTACT_NUM,EMP_ADDRESS,GENDER,SALARY,EMP_TYPE,PROFESSION,DEPT
+1,"Ashish Samanta",9871450094,"Supertech Supernova",1,20000.35,Permanent,Doctor,Neurology
+2,"Rishav Dubey",9294450094,"Amrapali Livingston",1,45000.23,Trainee,Doctor,Orthopaedic
+3,"Arjun Sivasankar",9871450034,"Supertech Innova",1,2000.00,Trainee,Nurse,OPD
+4,"Aditi Pant",2371450094,"Ajnara Landscapes",0,1000.00,Permanent,Receptionist,General
+5,"Fahad Hayat",4571450052,"Gold Coast HighLands",1,100000.90,Visiting,Doctor,Surgery
+6,"Sukhad Sharma",9818541834,"Eldeco Amantran",1,500.00,Permanent,Admin,General
+7,"Ramiz Raja",4571410052,"Hollywood Downtown",1,100020.90,Visiting,Doctor,opthomology

@@ -1,0 +1,12 @@
+COMMANDS EXECUTED:
+
+1 -> git clone https://github.com/devansh-accolite/JulyAU2020Assignment_2.git
+2 -> cd JulyAU2020Assignment_2
+3 -> git branch new_branch_Ashish
+4 -> git checkout new_branch_Ashish
+5 -> nano testFile1729
+6 -> Enter some random data into testFile1729
+7 -> git add .
+8 -> git commit -m "First Assignment"
+9 -> git push
+10 -> Raised PR from GitHub

@@ -1,0 +1,12 @@
+DOC_NAME,DOC_ID,EMP_TYPE,DEPT,PATIENT_ID,PATIENT_NAME
+"Ashish Samanta",1,Permanent,Neurology,100,Avinash
+"Ashish Samanta",1,Permanent,Neurology,102,Jayashree
+"Ashish Samanta",1,Permanent,Neurology,104,Ali
+"Rishav Dubey",2,Trainee,Orthopaedic,101,Shriya
+"Rishav Dubey",2,Trainee,Orthopaedic,105,Amin
+"Rishav Dubey",2,Trainee,Orthopaedic,106,Ashwin
+"Rishav Dubey",2,Trainee,Orthopaedic,108,Sudeeksha
+"Fahad Hayat",5,Visiting,Surgery,103,Datta
+"Fahad Hayat",5,Visiting,Surgery,107,Prateekh
+"Fahad Hayat",5,Visiting,Surgery,109,Urja
+"Ramiz Raja",7,Visiting,opthomology,NULL,NULL

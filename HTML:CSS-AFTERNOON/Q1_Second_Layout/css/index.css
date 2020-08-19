@@ -1,0 +1,135 @@
+.container {
+    background-color: #242020f3;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-width: 0px;
+}
+
+.story-image{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-style: solid;
+    border-width: medium;
+}
+
+.horizontal-blocks{
+    background-color: red;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+    display: flex;
+}
+
+.some{
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    padding: 0;
+}
+.secondary-container{
+    width: 70%;
+    height: 300px;
+    background-color: lightgrey;
+    padding-right: 25px;
+    padding-top: 0px;
+}
+
+
+
+.secondary-container-small{
+    width: 30%;
+    height: 300px;
+    background-color: red;
+}
+
+.headline-lable-container{
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.headline-second{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.headline-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+.story-container {
+    background-color: #242020f3;
+    width: 100%;
+    height: 600px;
+    border-style: solid;
+    border: 0px;
+}
+
+.story-container-new {
+    background-color: #242020f3;
+    width: 80%;
+    height: 300px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-container{
+    width: 50%;
+    background-color: #211e1e;
+}
+
+.menu-lable{
+    color: black;
+    margin-top: 5px;
+}
+
+.menu-container{
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    margin-right: 27px;
+    width: 100px;
+    height: 25px;
+    background-color:lightgray;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.img-container{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    margin-left: 27px;
+    border-radius: 30px;
+}
+
+.label-style{
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+  }
+  

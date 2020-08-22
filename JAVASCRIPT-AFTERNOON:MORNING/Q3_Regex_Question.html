@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Regex Question</title>
+    </head>
+    <body>
+        <p id="output"></p>
+
+        <script>
+            let input = prompt("Please enter String input for Regex check");
+            let test1 = input.match(/[T,t]he.*hello$/) != null ? true : false
+            let test2 = input.match(/\b.*h[a,e,i,o,u]?.t.*\b/) != null ? true : false
+            document.getElementById("output").innerHTML = "Test1: " + test1 + " | " + "Test2: " + test2
+        </script>
+
+    </body>
+</html>

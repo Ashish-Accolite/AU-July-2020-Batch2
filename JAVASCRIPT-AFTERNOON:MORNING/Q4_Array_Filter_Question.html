@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array Filter Question</title>
+    </head>
+    <body>
+        <p id="output1"></p>
+        <p id="output2"></p>
+        <p id="output3"></p>
+
+        <script>
+            let inputArr = [10,17,18,14,15]
+            let filterCondition = 15
+            let output1 = inputArr.filter((value) => {return value > filterCondition})
+            let output2 = ""
+            for(index in output1){
+                if(index == output1.length-1){
+                    output2 += `(${output1[index]},${index})` 
+                }
+                else{
+                    output2 += `(${output1[index]},${index}) => `   
+                }
+            }
+            let output3 = output1.map((value) => {return value*10})
+            document.getElementById("output1").innerHTML = "Output 1: [" + output1 + "]"
+            document.getElementById("output2").innerHTML = "Output 2: " + output2
+            document.getElementById("output3").innerHTML = "Output 3: [" + output3 + "]"
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<h2>Employee Joining Form</h2>
+
+<div class="container" style="background-color: lightgrey;"> 
+  <form (ngSubmit)="submitData()" [formGroup]="empFormGroup">
+    <div class="row" style="margin: 10px;">
+      <Label  htmlFor="name" style="width: 50%;">Employee Name</Label>
+    </div>
+    <div class="row" style="margin: 10px;">
+      <input type="text" placeholder="Enter Employee Name" class="form-control" style="width: 50%;border-radius: 7px;border-style: solid;border-width: 2px;height: 25px;" formControlName="empName" required  >
+    </div>
+    <span *ngIf="empName.invalid && empName.errors.required" style="color: red;">
+      Name is required.
+    </span>
+    <span *ngIf="empName.hasError('minlength')" style="color: red;">
+      Name should have at least 3 characters.
+    </span>
+    <div class="row" style="margin: 10px;">
+      <Label  htmlFor="name" style="width: 50%;">Employee Id</Label>
+    </div>
+    <div class="row" style="margin: 10px;">
+      <input type="text" placeholder="Enter Employee Id"  class="form-control" style="width: 50%;border-radius: 7px;border-style: solid;border-width: 2px;height: 25px;" formControlName="empId"  required>
+    </div>
+    <span *ngIf="empId.invalid && empId.errors.required" style="color: red;">
+      Id is required.
+    </span>
+    <span *ngIf="empId.hasError('pattern')" style="color: red;">
+      Only Numbers allowed.
+    </span>
+    <div class="row" style="margin: 10px;">
+      <Label  htmlFor="name" style="width: 50%;">Employee Gender</Label>
+    </div>
+    <div class="row" style="margin: 10px;">
+      <input placeholder="Enter Employee Gender"  type="text" style="width: 50%;border-radius: 7px;border-style: solid;border-width: 2px;height: 25px;" formControlName="empGender"  required>
+    </div>
+    <span *ngIf="empGender.invalid && empGender.errors.required" style="color: red;">
+      Gender is required.
+    </span>
+    <span *ngIf="empGender.hasError('pattern')" style="color: red;">
+      Accepted Values: ( Male, Female, male, female )
+    </span>
+    <div class="row" style="margin: 10px;">
+      <Label  htmlFor="name" style="width: 50%;">Employee Designation</Label>
+    </div>
+    <div class="row" style="margin: 10px;">
+      <input type="text" placeholder="Enter Employee Designation"  style="width: 50%;border-radius: 7px;border-style: solid;border-width: 2px;height: 25px;" formControlName="empDesignation"  required>
+    </div>
+    <span *ngIf="empDesignation.invalid && empDesignation.errors.required" style="color: red;">
+      Employee Designation required.
+    </span>
+    <span *ngIf="empDesignation.hasError('minlength')" style="color: red;">
+      Minimum 2 characters required.
+    </span>
+    <div class="row" style="margin: 10px;">
+      <Label  htmlFor="name" style="width: 50%;">Employee Phone</Label>
+    </div>
+    <div class="row" style="margin: 10px;">
+      <input type="text" placeholder="Enter Employee Phone Number"  style="width: 50%;border-radius: 7px;border-style: solid;border-width: 2px;height: 25px;" formControlName="empPhone"  required>
+    </div>
+    <span *ngIf="empPhone.invalid && empPhone.errors.required" style="color: red;">
+      Employee Phone number required.
+    </span>
+    <span *ngIf="empPhone.hasError('pattern')" style="color: red;">
+      Only Numbers allowed.
+    </span>
+    <span *ngIf="empPhone.hasError('minlength')" style="color: red;">
+      Phone number should be 10 digits.
+    </span>
+    <span *ngIf="empPhone.hasError('maxlength')" style="color: red;">
+      Phone number should be 10 digits.
+    </span>
+
+    <div class="row" style="margin: 30px;">
+      <input style="width: 20%;height: 40px;border-radius: 10px;border-style: solid;border-width: 2px;" type="submit" />
+    </div>
+  </form>
+</div>
+<router-outlet></router-outlet>

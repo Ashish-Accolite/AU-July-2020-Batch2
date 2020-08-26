@@ -1,0 +1,19 @@
+<div style="width: 80%;margin: auto;">
+    <h1>Type of Maps</h1>
+<h2>Flat Map</h2>
+<p style="text-align: justify;">Returns an Observable that emits items based on applying a function that you supply to each item emitted by the source Observable, where that function returns an Observable, and then merging those resulting Observables and emitting the results of this merger.</p>
+<h2>Switch Map</h2>
+<p style="text-align: justify;">The switchMap operator returns an observable that emits items based on applying a function that you supply to each item emitted by the source observable where that function returns an inner observable. ... It continues to behave like this for subsequent inner observables.</p>
+<h2>Exhaust Map</h2>
+<p style="text-align: justify;">Returns an Observable that emits items based on applying a function that you supply to each item emitted by the source Observable, where that function returns an (so-called "inner") Observable. When it projects a source value to an Observable, the output Observable begins emitting the items emitted by that projected Observable. However, exhaustMap ignores every new projected Observable if the previous projected Observable has not yet completed. Once that one completes, it will accept and flatten the next projected Observable and repeat this process.</p>
+<h2>Concat Map</h2>
+<p style="text-align: justify;">An Observable that emits the result of applying the projection function (and the optional deprecated resultSelector) to each item emitted by the source Observable and taking values from each projected inner Observable sequentially.</p>
+<h1>View Encapsulation in Angular</h1>
+<p style="text-align: justify;"> View encapsulation defines whether the template and styles defined within the component can affect the whole application or vice versa. Angular provides three encapsulation strategies:</p>
+<ul>
+    <li style="text-align: justify;">Emulated (default) - styles from main HTML propagate to the component. Styles defined in this component's @Component decorator are scoped to this component only.</li>
+    <li style="text-align: justify;">Native - styles from main HTML do not propagate to the component. Styles defined in this
+        component's @Component decorator are scoped to this component only.</li>
+     <li style="text-align: justify;">None - styles from the component propagate back to the main HTML and therefore are visible to all components on the page. Be careful with apps that have None and Native components in the application. All components with None encapsulation will have their styles duplicated in all components with Native encapsulation.</li>
+</ul>
+</div> 
